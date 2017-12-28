@@ -7,8 +7,9 @@ At this moment, there is only an alfa version of the decoder part's code
 TO DO:
 ----------------------------------------------------------------------------------------------------------------------
   1. Clean up the code and organize it on a library
-     1b. If the output file already exists, truncate it (reset)
-     1c. If the Base64 code provided to the decoder its not correct, detect it and generate an exception
+  
+    1b. If the output file already exists, truncate it (reset)
+    1c. If the Base64 code provided to the decoder its not correct, detect it and generate an exception
     
   2. Create the encoder part, based on the decoder one
   
