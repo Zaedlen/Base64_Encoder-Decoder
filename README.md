@@ -4,13 +4,20 @@ WIP of an linux-based encoder and decoder for Base64.
 
 At this moment, there is only an alfa version of the decoder part's code
 
-TODO:
+TO DO:
 ----------------------------------------------------------------------------------------------------------------------
   1. Clean up the code and organize it on a library
+    1b. If the output file already exists, truncate it (reset)
+    1c. If the Base64 code provided to the decoder its not correct, detect it and generate an exception
+    
   2. Create the encoder part, based on the decoder one
+  
   3. Add it to the library
+  
   4. Add also some functions to clean the file management part
+  
   5. Create the main file
+  
   6. Create the makefile
   
 
