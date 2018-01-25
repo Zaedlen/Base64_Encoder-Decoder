@@ -1,3 +1,9 @@
+/**-------------------------------------
+	base64.h
+	
+	encode/decode functions heather file
+----------------------------------------*/
+
 #ifndef BASE64_H
 #define BASE64_H
 
@@ -11,8 +17,7 @@
 #include <string.h>
 
 
-
-const char *crp = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-const char S_CRP = 64;
+void encode(char *s_string, size_t s_size, char *d_string, size_t d_size);
+void decode(char *s_string, size_t s_size, char *d_string, size_t d_size);
 
 #endif
